@@ -1,0 +1,21 @@
+# python == 3.8.8
+# dash == 1.13.1
+dash
+plotly 
+pandas 
+# numpy == 1.18.5
+numpy
+missingno 
+# scikit-learn == 1.0.2
+scikit-learn
+xgboost 
+# statsmodels == 0.13.1
+statsmodels
+imbalanced-learn 
+# category_encoders == 2.3.0
+category_encoders
+seaborn
+matplotlib
+streamlit
+joblib
+# OS : windows
