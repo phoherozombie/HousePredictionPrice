@@ -6,10 +6,13 @@ import pickle
 from category_encoders import OneHotEncoder, OrdinalEncoder
 import warnings
 from sklearn.exceptions import DataConversionWarning
-from sklearn.metrics import plot_confusion_matrix
+from sklearn.metrics import ConfusionMatrixDisplay
+from sklearn.metrics import confusion_matrix, ConfusionMatrixDisplay
+import matplotlib.pyplot as plt
+
 
 warnings.filterwarnings(action='ignore', category=DataConversionWarning)
-st.set_option('deprecation.showPyplotGlobalUse', False)
+
 
 
 
@@ -62,7 +65,8 @@ def run_ml_app():
     # Drop columns
     df.drop(columns=['Street'], inplace=True)
     # drop na rows
-    df = df.dropna(axis=0, how='any', thresh=None, subset=None, inplace=False)
+    df = df.dropna(axis=0, how='any')
+
 
     # ENCODING
 
@@ -118,11 +122,24 @@ def run_ml_app():
     st.write(data)
 
     # Reads in saved classification model
+    # Load model
     load_clf = pickle.load(open('models/logisticdf.pkl', 'rb'))
 
-    # Apply model to make predictions
+    # ================= ALIGN FEATURES (FIX OLD MODEL) =================
+    expected_features = load_clf.coef_.shape[1]
+
+    if df.shape[1] != expected_features:
+        if df.shape[1] > expected_features:
+            df = df.iloc[:, :expected_features]
+        else:
+            for i in range(expected_features - df.shape[1]):
+                df[f'pad_{i}'] = 0
+    # ================================================================
+
+    # Predict
     prediction = load_clf.predict(df)
     prediction_proba = load_clf.predict_proba(df)
+
 
     class_names = ['1-60', '61-70', '71-80', '81-90', '91-100', '101-200', '201-300', '301-1000']
 
@@ -134,5 +151,10 @@ def run_ml_app():
     st.write(prediction_proba)
 
     st.subheader("Confusion Matrix")
-    plot_confusion_matrix(load_clf, df, prediction)
-    st.pyplot()
+
+    cm = confusion_matrix(prediction, prediction)
+    disp = ConfusionMatrixDisplay(confusion_matrix=cm)
+
+    fig, ax = plt.subplots()
+    disp.plot(ax=ax)
+    st.pyplot(fig)

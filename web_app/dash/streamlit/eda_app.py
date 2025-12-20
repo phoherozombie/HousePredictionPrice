@@ -70,7 +70,7 @@ def run_eda_app():
                 st.dataframe(df['Price_range'].value_counts())
 
         with st.expander("Correlation Plot"):
-            corr_matrix = df.corr()
+            corr_matrix = df.select_dtypes(include='number').corr()
             fig = plt.figure(figsize=(20, 10))
             sns.heatmap(corr_matrix, annot=True)
             st.pyplot(fig)
