@@ -1,0 +1,7 @@
+*.pkl
+*.pkl.gz
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+*.csv
+!web_app/dash/streamlit/data/cleaned_data.csv

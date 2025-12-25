@@ -1,0 +1,352 @@
+No_floor
+No_bedroom
+Month
+Region
+District_BA ĐÌNH
+District_BẮC TỪ LIÊM
+District_CẦU GIẤY
+District_HAI BÀ TRƯNG
+District_HOÀN KIẾM
+District_HOÀNG MAI
+District_HUYỆN BA VÌ
+District_HUYỆN CHƯƠNG MỸ
+District_HUYỆN GIA LÂM
+District_HUYỆN HOÀI ĐỨC
+District_HUYỆN MÊ LINH
+District_HUYỆN MỸ ĐỨC
+District_HUYỆN PHÚ XUYÊN
+District_HUYỆN PHÚC THỌ
+District_HUYỆN QUỐC OAI
+District_HUYỆN SÓC SƠN
+District_HUYỆN THANH OAI
+District_HUYỆN THANH TRÌ
+District_HUYỆN THƯỜNG TÍN
+District_HUYỆN THẠCH THẤT
+District_HUYỆN ĐAN PHƯỢNG
+District_HUYỆN ĐÔNG ANH
+District_HÀ ĐÔNG
+District_LONG BIÊN
+District_NAM TỪ LIÊM
+District_THANH XUÂN
+District_THỊ XÃ SƠN TÂY
+District_TÂY HỒ
+District_ĐỐNG ĐA
+Ward_AN KHÁNH
+Ward_AN THƯỢNG
+Ward_BIÊN GIANG
+Ward_BÁCH KHOA
+Ward_BÁT TRÀNG
+Ward_BÌNH PHÚ
+Ward_BÌNH YÊN
+Ward_BÍCH HÒA
+Ward_BÙI THỊ XUÂN
+Ward_BƯỞI
+Ward_BẠCH MAI
+Ward_BẠCH ĐẰNG
+Ward_BẮC HỒNG
+Ward_BỒ ĐỀ
+Ward_CHƯƠNG DƯƠNG
+Ward_CÁT LINH
+Ward_CẦU DIỄN
+Ward_CẦU DỀN
+Ward_CỐNG VỊ
+Ward_CỔ BI
+Ward_CỔ NHUẾ 1
+Ward_CỔ NHUẾ 2
+Ward_CỔ ĐÔNG
+Ward_CỬA NAM
+Ward_CỬA ĐÔNG
+Ward_CỰ KHÊ
+Ward_CỰ KHỐI
+Ward_DI TRẠCH
+Ward_DUYÊN HÀ
+Ward_DUYÊN THÁI
+Ward_DƯƠNG LIỄU
+Ward_DƯƠNG NỘI
+Ward_DƯƠNG QUANG
+Ward_DƯƠNG XÁ
+Ward_DỊCH VỌNG
+Ward_DỊCH VỌNG HẬU
+Ward_DỤC TÚ
+Ward_GIA THỤY
+Ward_GIANG BIÊN
+Ward_GIÁP BÁT
+Ward_GIẢNG VÕ
+Ward_HOÀNG LIỆT
+Ward_HOÀNG VĂN THỤ
+Ward_HÀ CẦU
+Ward_HÀ HỒI
+Ward_HÀNG BUỒM
+Ward_HÀNG BÀI
+Ward_HÀNG BÔNG
+Ward_HÀNG BẠC
+Ward_HÀNG BỒ
+Ward_HÀNG BỘT
+Ward_HÀNG GAI
+Ward_HÀNG MÃ
+Ward_HÀNG TRỐNG
+Ward_HÀNG ĐÀO
+Ward_HÒA THẠCH
+Ward_HƯƠNG NGẢI
+Ward_HẠ ĐÌNH
+Ward_HẢI BỐI
+Ward_HỢP THANH
+Ward_HỮU HOÀ
+Ward_KHÁNH HÀ
+Ward_KHÂM THIÊN
+Ward_KHƯƠNG MAI
+Ward_KHƯƠNG THƯỢNG
+Ward_KHƯƠNG TRUNG
+Ward_KHƯƠNG ĐÌNH
+Ward_KIM CHUNG
+Ward_KIM GIANG
+Ward_KIM HOA
+Ward_KIM LIÊN
+Ward_KIM MÃ
+Ward_KIM NỖ
+Ward_KIM SƠN
+Ward_KIÊU KỴ
+Ward_KIẾN HƯNG
+Ward_LA KHÊ
+Ward_LA PHÙ
+Ward_LIÊN MẠC
+Ward_LIÊN NINH
+Ward_LIỄU GIAI
+Ward_LONG BIÊN
+Ward_LÁNG HẠ
+Ward_LÁNG THƯỢNG
+Ward_LÊ LỢI
+Ward_LÊ ĐẠI HÀNH
+Ward_LÝ THÁI TỔ
+Ward_LĨNH NAM
+Ward_LẠI YÊN
+Ward_MAI DỊCH
+Ward_MAI LÂM
+Ward_MAI ĐÌNH
+Ward_MAI ĐỘNG
+Ward_MINH KHAI
+Ward_MINH PHÚ
+Ward_MINH TRÍ
+Ward_MÊ LINH
+Ward_MỄ TRÌ
+Ward_MỘ LAO
+Ward_MỸ ĐÌNH 1
+Ward_MỸ ĐÌNH 2
+Ward_NAM HỒNG
+Ward_NAM ĐỒNG
+Ward_NGHIÊM XUYÊN
+Ward_NGHĨA HƯƠNG
+Ward_NGHĨA TÂN
+Ward_NGHĨA ĐÔ
+Ward_NGUYÊN KHÊ
+Ward_NGUYỄN DU
+Ward_NGUYỄN TRUNG TRỰC
+Ward_NGUYỄN TRÃI
+Ward_NGÃ TƯ SỞ
+Ward_NGÔ QUYỀN
+Ward_NGÔ THÌ NHẬM
+Ward_NGŨ HIỆP
+Ward_NGỌC HÀ
+Ward_NGỌC HỒI
+Ward_NGỌC KHÁNH
+Ward_NGỌC LIỆP
+Ward_NGỌC LÂM
+Ward_NGỌC THỤY
+Ward_NGỌC TẢO
+Ward_NHÂN CHÍNH
+Ward_NHẬT TÂN
+Ward_NHỊ KHÊ
+Ward_NINH HIỆP
+Ward_NINH SỞ
+Ward_PHAN CHU TRINH
+Ward_PHÙ LINH
+Ward_PHÙ LỖ
+Ward_PHÙ ĐỔNG
+Ward_PHÚ CHÂU
+Ward_PHÚ CÁT
+Ward_PHÚ CƯỜNG
+Ward_PHÚ DIỄN
+Ward_PHÚ LA
+Ward_PHÚ LÃM
+Ward_PHÚ LƯƠNG
+Ward_PHÚ MINH
+Ward_PHÚ MÃN
+Ward_PHÚ SƠN
+Ward_PHÚ THƯỢNG
+Ward_PHÚ THỊNH
+Ward_PHÚ ĐÔ
+Ward_PHÚC DIỄN
+Ward_PHÚC LA
+Ward_PHÚC LỢI
+Ward_PHÚC TÂN
+Ward_PHÚC XÁ
+Ward_PHÚC ĐỒNG
+Ward_PHƯƠNG CANH
+Ward_PHƯƠNG LIÊN
+Ward_PHƯƠNG LIỆT
+Ward_PHƯƠNG MAI
+Ward_PHƯƠNG TRUNG
+Ward_PHƯƠNG ĐÌNH
+Ward_PHẠM ĐÌNH HỔ
+Ward_PHỐ HUẾ
+Ward_PHỤNG CHÂU
+Ward_QUAN HOA
+Ward_QUANG TIẾN
+Ward_QUANG TRUNG
+Ward_QUÁN THÁNH
+Ward_QUẢNG AN
+Ward_QUỐC TỬ GIÁM
+Ward_QUỲNH LÔI
+Ward_QUỲNH MAI
+Ward_SONG PHƯƠNG
+Ward_SÀI SƠN
+Ward_SÀI ĐỒNG
+Ward_SƠN ĐÔNG
+Ward_SƠN ĐỒNG
+Ward_TAM HIỆP
+Ward_TAM HƯNG
+Ward_TAM ĐỒNG
+Ward_THANH CAO
+Ward_THANH LIỆT
+Ward_THANH LƯƠNG
+Ward_THANH NHÀN
+Ward_THANH TRÌ
+Ward_THANH XUÂN
+Ward_THANH XUÂN BẮC
+Ward_THANH XUÂN NAM
+Ward_THANH XUÂN TRUNG
+Ward_THÀNH CÔNG
+Ward_THƯỢNG CÁT
+Ward_THƯỢNG MỖ
+Ward_THƯỢNG THANH
+Ward_THƯỢNG ĐÌNH
+Ward_THẠCH BÀN
+Ward_THẠCH HOÀ
+Ward_THỊ TRẤN CHÚC SƠN
+Ward_THỊ TRẤN KIM BÀI
+Ward_THỊ TRẤN LIÊN QUAN
+Ward_THỊ TRẤN PHÙNG
+Ward_THỊ TRẤN PHÚ XUYÊN
+Ward_THỊ TRẤN QUANG MINH
+Ward_THỊ TRẤN QUỐC OAI
+Ward_THỊ TRẤN SÓC SƠN
+Ward_THỊ TRẤN THƯỜNG TÍN
+Ward_THỊ TRẤN TRÂU QUỲ
+Ward_THỊ TRẤN TRẠM TRÔI
+Ward_THỊ TRẤN VĂN ĐIỂN
+Ward_THỊ TRẤN XUÂN MAI
+Ward_THỊ TRẤN YÊN VIÊN
+Ward_THỊ TRẤN ĐÔNG ANH
+Ward_THỊNH LIỆT
+Ward_THỊNH QUANG
+Ward_THỔ QUAN
+Ward_THỤY KHUÊ
+Ward_THỤY PHƯƠNG
+Ward_THỦY XUÂN TIÊN
+Ward_TIÊN DƯƠNG
+Ward_TIÊN DƯỢC
+Ward_TIẾN XUÂN
+Ward_TIỀN PHONG
+Ward_TRUNG HOÀ
+Ward_TRUNG LIỆT
+Ward_TRUNG PHỤNG
+Ward_TRUNG SƠN TRẦM
+Ward_TRUNG TỰ
+Ward_TRUNG VĂN
+Ward_TRÀNG TIỀN
+Ward_TRÚC BẠCH
+Ward_TRƯƠNG ĐỊNH
+Ward_TRẦN HƯNG ĐẠO
+Ward_TRẦN PHÚ
+Ward_TÂN HỘI
+Ward_TÂN LẬP
+Ward_TÂN MAI
+Ward_TÂN TRIỀU
+Ward_TÂN XÃ
+Ward_TÂY MỖ
+Ward_TÂY TỰU
+Ward_TƯƠNG MAI
+Ward_TẢ THANH OAI
+Ward_TỨ HIỆP
+Ward_TỨ LIÊN
+Ward_UY NỖ
+Ward_VIÊN SƠN
+Ward_VIỆT HÙNG
+Ward_VIỆT HƯNG
+Ward_VÂN CANH
+Ward_VÂN CÔN
+Ward_VÂN HÒA
+Ward_VÂN NỘI
+Ward_VÂN TẢO
+Ward_VÕNG LA
+Ward_VÕNG XUYÊN
+Ward_VĂN BÌNH
+Ward_VĂN CHƯƠNG
+Ward_VĂN MIẾU
+Ward_VĂN QUÁN
+Ward_VĨNH HƯNG
+Ward_VĨNH NGỌC
+Ward_VĨNH PHÚC
+Ward_VĨNH QUỲNH
+Ward_VĨNH TUY
+Ward_VẠN PHÚC
+Ward_XUÂN GIANG
+Ward_XUÂN KHANH
+Ward_XUÂN LA
+Ward_XUÂN NỘN
+Ward_XUÂN PHƯƠNG
+Ward_XUÂN TẢO
+Ward_XUÂN ĐỈNH
+Ward_YÊN HOÀ
+Ward_YÊN NGHĨA
+Ward_YÊN PHỤ
+Ward_YÊN SỞ
+Ward_YÊN THƯỜNG
+Ward_YÊN VIÊN
+Ward_YẾT KIÊU
+Ward_Ô CHỢ DỪA
+Ward_ĐA TỐN
+Ward_ĐAN PHƯỢNG
+Ward_ĐIỆN BIÊN
+Ward_ĐÌNH XUYÊN
+Ward_ĐÔNG DƯ
+Ward_ĐÔNG HỘI
+Ward_ĐÔNG LA
+Ward_ĐÔNG MỸ
+Ward_ĐÔNG NGẠC
+Ward_ĐÔNG XUÂN
+Ward_ĐÔNG YÊN
+Ward_ĐẠI KIM
+Ward_ĐẠI MẠCH
+Ward_ĐẠI MỖ
+Ward_ĐẠI THÀNH
+Ward_ĐẠI THỊNH
+Ward_ĐẠI YÊN
+Ward_ĐẠI ÁNG
+Ward_ĐẶNG XÁ
+Ward_ĐỊNH CÔNG
+Ward_ĐỐNG MÁC
+Ward_ĐỒNG MAI
+Ward_ĐỒNG NHÂN
+Ward_ĐỒNG QUANG
+Ward_ĐỒNG TÂM
+Ward_ĐỒNG XUÂN
+Ward_ĐỖ ĐỘNG
+Ward_ĐỘI CẤN
+Ward_ĐỨC GIANG
+Ward_ĐỨC THƯỢNG
+Ward_ĐỨC THẮNG
+House_type_BYROAD
+House_type_STREET_HOUSE
+House_type_TOWNHOUSE
+House_type_VILLA
+Legal_documents_AVAILABLE
+Legal_documents_OTHERS
+Legal_documents_WAITING
+Day_Of_Week_FRIDAY
+Day_Of_Week_MONDAY
+Day_Of_Week_SATURDAY
+Day_Of_Week_SUNDAY
+Day_Of_Week_THURSDAY
+Day_Of_Week_TUESDAY
+Day_Of_Week_WEDNESDAY
