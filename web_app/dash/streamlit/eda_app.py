@@ -11,7 +11,7 @@ import seaborn as sns
 import plotly.express as px
 
 
-@st.cache
+@st.cache_data
 def load_data(data):
     df = pd.read_csv(data)
     return df
