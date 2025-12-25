@@ -1,7 +1,6 @@
-*.pkl
+KNeighborsClassifier_GridSearchCV.pkl
+randomForest_with_area_pipeline.pkl
+randomForestClassifier_GridSearchCV_pipeline.pkl
+randomForestClassifier_pipeline.pkl
 *.pkl.gz
-.venv/
-__pycache__/
 .ipynb_checkpoints/
-*.csv
-!web_app/dash/streamlit/data/cleaned_data.csv
