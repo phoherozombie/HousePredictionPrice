@@ -41,9 +41,12 @@ def run_ml_app():
     districts = ('CẦU GIẤY', 'THANH XUÂN', 'HAI BÀ TRƯNG', 'TÂY HỒ', 'ĐỐNG ĐA', 'HÀ ĐÔNG', 'HUYỆN THANH TRÌ', 'HOÀNG MAI', 'LONG BIÊN', 'HOÀN KIẾM', 'NAM TỪ LIÊM', 'BA ĐÌNH', 'HUYỆN HOÀI ĐỨC', 'BẮC TỪ LIÊM', 'HUYỆN ĐAN PHƯỢNG', 'HUYỆN THANH OAI', 'HUYỆN SÓC SƠN', 'HUYỆN GIA LÂM', 'HUYỆN CHƯƠNG MỸ', 'HUYỆN ĐÔNG ANH', 'HUYỆN THƯỜNG TÍN', 'THỊ XÃ SƠN TÂY', 'HUYỆN MÊ LINH', 'HUYỆN THẠCH THẤT', 'HUYỆN QUỐC OAI', 'HUYỆN PHÚC THỌ', 'HUYỆN PHÚ XUYÊN', 'HUYỆN BA VÌ', 'HUYỆN MỸ ĐỨC')
     district = st.sidebar.selectbox('District', districts)
 
-    area = st.sidebar.slider('Area', 1.0, 500.0, 44.0)
     width = st.sidebar.slider('Width', 1.0, 20.0, 4.0)
     length = st.sidebar.slider('Length', 1.0, 50.0, 11.0)
+    
+    # Tự động tính Area và gán giá trị vào thanh trượt (slider)
+    area_calc = float(width * length)
+    area = st.sidebar.slider('Area', 1.0, 500.0, area_calc)
 
     # ==================== LOAD PIPELINE MODEL ====================
     root_path = os.path.dirname(os.path.dirname(os.path.dirname(base_path)))
@@ -107,7 +110,38 @@ def run_ml_app():
         final_label = str(pred_val)
 
     st.subheader('Prediction Result')
-    st.success(f"Khoảng giá dự kiến: **{final_label}** triệu vnd")
+    
+    # Format Unit Price Range display
+    range_parts = final_label.split('-')
+    if len(range_parts) == 2:
+        unit_price_text = f"{range_parts[0]} triệu/m² - {range_parts[1]} triệu/m²"
+    else:
+        unit_price_text = f"{final_label} triệu/m²"
+        
+    st.success(f"Khoảng giá dự kiến: **{unit_price_text}**")
+
+    # ==================== TOTAL PRICE CALCULATION ====================
+    try:
+        # Display Dimension Info
+        st.markdown(f"**Căn nhà có kích thước đẹp:** `{width}m x {length}m` (Diện tích `{area:.2f}m²`)")
+
+        # Get Min and Max from final_label (e.g., '101-200' -> 101, 200)
+        range_parts = final_label.split('-')
+        min_range = float(range_parts[0])
+        max_range = float(range_parts[1]) if len(range_parts) > 1 else min_range
+
+        min_total = area * min_range
+        max_total = area * max_range
+
+        def format_price(price):
+            if price >= 1000:
+                return f"{price / 1000:.2f} Tỷ"
+            return f"{price:,.0f} triệu"
+
+        st.info(f"Dựa trên diện tích **{area:.2f}m²**, giá trị căn nhà ước tính nằm trong khoảng: "
+                f"**{format_price(min_total)}** - **{format_price(max_total)}** VND.")
+    except Exception as e:
+        st.warning("Không thể tính toán tổng giá trị thực tế.")
 
     st.subheader('Probability Distribution')
     cols = load_clf.classes_
